@@ -1,0 +1,323 @@
+.Main {
+    width: 700px;
+    height: fit-content;
+    border: .1px solid #bbbbbb8a;
+}
+
+.back-box-icon {
+    width: inherit;
+    height: 55px;
+    position: fixed;
+    z-index: 12;
+}
+
+.box-user-name-back {
+    width: 100%;
+    height: 55px;
+    font-size: 12px;
+    display: flex;
+    background: #000;
+    border-bottom: .1px solid rgba(173, 173, 173, 0.336);
+}
+
+.back {
+    font-size: 21px;
+    margin: 18px;
+    border-radius: 50px;
+    padding: 5px;
+    color:#fff;
+}
+
+
+.Tweets {
+    margin-top: -18px;
+    color: #fff;
+
+}
+
+.react {
+    margin-top: 2px;
+    color: #fff;
+}
+
+.header {
+    width: 100%;
+    height: 200px;
+    background-image: url(https://res.cloudinary.com/practicaldev/image/fetch/s--goETGOXU--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/x3x5w638kkixi9s3h3vw.gif);
+    background-size: cover;
+    background-position: 5px 19px ;
+}
+
+.user-box {
+    width: 400px;
+    height: 230px;
+    margin: 20px;
+    color: #fff;
+    margin-top: 70px;
+}
+
+.user-img-box {
+    width: 160px;
+    margin-left: 20px;
+}
+
+.user-img-g {
+    width: 100%;
+    border-radius: 100px;
+    border: 5px solid #000;
+    margin-bottom: -25px;
+    transform: translateY(100px);
+    z-index: 0;
+}
+
+.name-user {
+    font-size: 26px;
+    margin-bottom: -18px;
+    color: #fff;
+}
+
+.user-name-e {
+    margin-left: 5px;
+    margin-bottom: -8px;
+    color: #444;
+}
+
+.dateBox {
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+    color: #444;
+
+}
+
+.date {
+    margin-left: 5px;
+}
+
+.following-followers {
+    margin-top: -20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+
+.following {
+    margin-right: 10px;
+    margin-left: 5px;
+    color: #444;
+
+}
+
+.followers {
+    margin-left: 5px;
+    color: #444;
+
+}
+
+
+.Following {
+    width: 120px;
+    margin: 20px;
+    height: 38px;
+    font-size: 18px;
+    border-radius: 100px;
+    border: none;
+    background: transparent;
+    color: #fff;
+    border: .1px solid #bbb;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.TweetsBox {
+    display: flex;
+    margin-top: -60px;
+}
+
+.tweets {
+    border: none;
+    width: 200px;
+    height: 50px;
+    background: transparent;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom: .2px solid #bbb;
+    color: #fff;
+}
+
+
+.btn {
+    border: none;
+    width: 200px;
+    height: 50px;
+    background: transparent;
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+    cursor: pointer;
+    border-bottom: .2px solid #bbb;
+}
+
+
+
+.more {
+    font-size: 28px;
+    border-radius: 50px;
+    border: .5px solid #bbb;
+    cursor: pointer;
+    color: #fff;
+
+}
+
+.follow-box {
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue {
+    width: 70px;
+    border: 2px solid #0189ff;
+}
+
+.boxs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-user {
+    width: 100%;
+    display: flex;
+    border-bottom: .1px solid #bbb;
+}
+
+.profile_ {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://cdn.iconscout.com/icon/free/png-256/react-1-282599.png");
+    border-radius: 50px;
+}
+
+.names {
+    display: flex;
+    flex-direction: row;
+    font-size: 9px;
+    color: #fff;
+}
+
+.name-user-r {
+    font-weight: 500;
+    margin-left: 10px;
+    color: #444;
+}
+
+.more-e {
+    font-size: 28px;
+    
+}
+.all {
+    width: 620px;
+    display: flex;
+    justify-content: space-between;
+}
+.tweet-user {
+    width: 98%;
+    display: flex;
+    justify-content: flex-start;
+    color: #fff;
+}
+.nav-icons {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    margin-right: 30px;
+    color: #444;
+}
+.nav-icons-box {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #444;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: #444;
+}
+
+
+.comment-tweet {
+    font-size: 15px;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 499px) {
+    .Main {
+        width: 400px;
+    }
+    .box-user-name-back {
+        width: 99.5%;
+    }
+    .btn {
+        font-size: 15px;
+    }
+    .tweets {
+        font-size: 15px;
+        width: 130px;
+    }
+    .all {
+        width: 300px;
+    }
+    .name-user-r {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 50px;
+    }
+    .user-img-box {
+        width: 120px;
+    }
+    .user-img-g {
+        transform: translateY(130px);
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1005px) {
+    .Main {
+        width: 450px;
+    }
+    .all {
+        width: 350px;
+    }
+    .name-user-r {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 50px;
+    }
+    .btn {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 100px;
+    }
+    .tweets {
+        width: 150px;
+    }
+}
