@@ -14,24 +14,24 @@ import TitleBox from "./TitlesBoxes/TitleBox";
 
 const NavBarLeft = () => {
   return (
-    <div classNameName="Left">
-      <div classNameName="Twittertitle-box">
-        <FaTwitter classNameName="TwitterLogo" />
+    <div className="Left">
+      <div className="Twittertitle-box">
+        <FaTwitter className="TwitterLogo" />
       </div>
-      <TitleBox icon={<BiHomeCircle classNameName="icon" />} text="Home" />
-      <TitleBox icon={<BiHash classNameName="icon" />} text="Explore" />
+      <TitleBox icon={<BiHomeCircle className="icon" />} text="Home" />
+      <TitleBox icon={<BiHash className="icon" />} text="Explore" />
       <TitleBox
-        icon={<IoNotificationsOutline classNameName="icon" />}
+        icon={<IoNotificationsOutline className="icon" />}
         text="notifications"
       />
       <TitleBox
-        icon={<BiMessageSquareDetail classNameName="icon" />}
+        icon={<BiMessageSquareDetail className="icon" />}
         text="Message"
       />
-      <TitleBox icon={<RiFileList2Line classNameName="icon" />} text="Lists" />
-      <TitleBox icon={<BiBookmark classNameName="icon" />} text="Bookmarks" />
-      <TitleBox icon={<RiContactsFill classNameName="icon" />} text="Profile" />
-      <TitleBox icon={<CgMoreO classNameName="icon" />} text="More" />
+      <TitleBox icon={<RiFileList2Line className="icon" />} text="Lists" />
+      <TitleBox icon={<BiBookmark className="icon" />} text="Bookmarks" />
+      <TitleBox icon={<RiContactsFill className="icon" />} text="Profile" />
+      <TitleBox icon={<CgMoreO className="icon" />} text="More" />
       <button className="Post">Post</button>
       <div className="user">
         <img
