@@ -7,15 +7,15 @@ import TagBox from "./TagsBoxes/Tagbox";
 
 const Right = () => {
   return (
-    <div class="right">
-      <div class="box-search">
-        <input type="text" class="search" placeholder="Search " />
-        <BiSearch class="search-icon" />
+    <div className="right">
+      <div className="box-search">
+        <input type="text" className="search" placeholder="Search " />
+        <BiSearch className="search-icon" />
       </div>
 
-      <div class="might-box">
-        <div class="might">
-          <h1 class="might-like">You might like</h1>
+      <div className="might-box">
+        <div className="might">
+          <h1 className="might-like">You might like</h1>
           <Channel
             name="TypeScript"
             src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg"
@@ -31,42 +31,42 @@ const Right = () => {
             src="https://cdn.iconscout.com/icon/free/png-256/react-1-282599.png"
             userName="@Reactjs"
           />
-          <button class="show-more">Show more</button>
+          <button className="show-more">Show more</button>
         </div>
       </div>
 
-      <div class="trends-box">
-        <div class="trends">
-          <div class="row">
-            <h1 class="header-text">Trends for you</h1>
+      <div className="trends-box">
+        <div className="trends">
+          <div className="row">
+            <h1 className="header-text">Trends for you</h1>
           </div>
           <TagBox trending="1" tag="#Reactjs" tweets="430.2k Tweets" />
           <TagBox trending="2" tag="#programming" tweets="150.2k Tweets" />
           <TagBox trending="3" tag="#frontend" tweets="130.2k Tweets" />
-          <button class="show-more">Show more</button>
+          <button className="show-more">Show more</button>
         </div>
       </div>
 
-      <div class="footer">
-        <a href="#" class="terms" >
+      <div className="footer">
+        <a href="#" className="terms" >
           Terms of Service
         </a>
-        <a href="#" class="terms" >
+        <a href="#" className="terms" >
           Privacy policy
         </a>
-        <a href="#" class="terms" >
+        <a href="#" className="terms" >
           Cookie Policy
         </a>
-        <a href="#" class="terms" >
+        <a href="#" className="terms" >
           Accessbility
         </a>
-        <a href="#" class="terms" >
+        <a href="#" className="terms" >
           Ads info
         </a>
-        <a href="#" class="terms" >
+        <a href="#" className="terms" >
           More ...
         </a>
-        <a href="#" class="terms" >
+        <a href="#" className="terms" >
           2023 X, Corp.
         </a>
       </div>

@@ -8,41 +8,45 @@ import {
   BiBookmark,
 } from "react-icons/bi";
 import { IoNotificationsOutline } from "react-icons/io5";
-import { RiFileList2Line,RiContactsFill } from "react-icons/ri";
+import { RiFileList2Line, RiContactsFill } from "react-icons/ri";
 import { CgMoreO, CgMoreAlt } from "react-icons/cg";
-import TitleBox from "./TitlesBoxes/TitleBox"; 
+import TitleBox from "./TitlesBoxes/TitleBox";
 
 const NavBarLeft = () => {
   return (
-    <div className="Left">
-      <div className="Twittertitle-box">
-        <FaTwitter className="TwitterLogo" />
+    <div classNameName="Left">
+      <div classNameName="Twittertitle-box">
+        <FaTwitter classNameName="TwitterLogo" />
       </div>
-      <TitleBox icon={<BiHomeCircle className="icon" />} text="Home" />
-      <TitleBox icon={<BiHash className="icon" />} text="Explore" />
-      <TitleBox icon={<IoNotificationsOutline className="icon" />} text="notifications" />
-      <TitleBox icon={<BiMessageSquareDetail className="icon" />} text="Message" />
-      <TitleBox icon={<RiFileList2Line className="icon" />} text="Lists" />
-      <TitleBox icon={<BiBookmark className="icon" />} text="Bookmarks" />
-      <TitleBox icon={<RiContactsFill className="icon" />} text="Profile" />
-      <TitleBox icon={<CgMoreO className="icon" />} text="More" />
-      <button class="Post">Post</button>
-      <div class="user">
+      <TitleBox icon={<BiHomeCircle classNameName="icon" />} text="Home" />
+      <TitleBox icon={<BiHash classNameName="icon" />} text="Explore" />
+      <TitleBox
+        icon={<IoNotificationsOutline classNameName="icon" />}
+        text="notifications"
+      />
+      <TitleBox
+        icon={<BiMessageSquareDetail classNameName="icon" />}
+        text="Message"
+      />
+      <TitleBox icon={<RiFileList2Line classNameName="icon" />} text="Lists" />
+      <TitleBox icon={<BiBookmark classNameName="icon" />} text="Bookmarks" />
+      <TitleBox icon={<RiContactsFill classNameName="icon" />} text="Profile" />
+      <TitleBox icon={<CgMoreO classNameName="icon" />} text="More" />
+      <button className="Post">Post</button>
+      <div className="user">
         <img
           src="https://cdn.iconscout.com/icon/free/png-256/react-1-282599.png"
           alt=""
-          class="user-img"
+          className="user-img"
         />
-        <div class="title-box-user-names">
-          <p class="name">Maymona</p>
-          <p class="user-name">@maymonakhanfar</p>
+        <div className="title-box-user-names">
+          <p className="name">Maymona</p>
+          <p className="user-name">@maymonakhanfar</p>
         </div>
-        <CgMoreAlt class="cg" />
+        <CgMoreAlt className="cg" />
       </div>
-
     </div>
   );
 };
 
 export default NavBarLeft;
-
