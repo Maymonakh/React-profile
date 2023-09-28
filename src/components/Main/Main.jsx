@@ -28,7 +28,7 @@ const Main = () => {
 
       <div className="follow-box">
         <CgMoreAlt className="more" />
-        <input type="button" value="Following" classNameName="Following" />
+        <input type="button" value="Following" className="Following" />
       </div>
 
       <div className="user-box">
