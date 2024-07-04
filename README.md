@@ -9,6 +9,18 @@
 <h1>Reimplemention for ReactJS profile on Twitter </h1>
 <hr>
 
+<br>
+ 
+![Alt text](/img/1.png)
+
+<br>
+
+
+![Alt text](/img/2.png)
+
+
+<hr>
+
 <h2>Technologies used </h2>
 
  <li ><img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" width="40" height="40"/> </li>
@@ -17,16 +29,6 @@
 
 <hr>
 
-<h2>How to clone this project</h2>
-<ul>   
-<li> Above the list of files, click Code and copy the URL for the repository.</li>
- <li> Open Git Bash. </li>
- <li> Type git clone, and then paste the URL you copied earlier.</li>
- <li> Open it whit VSC and in backend directory</li>
- <li> Run --json-server --watch db.json --port 5000--</li>
- <li> Change directory to frontend by --cd frontend--</li>
- <li> Excute --npm start-- to start the projec</li>
-</ul>
 
   <hr>
   
